@@ -2,8 +2,8 @@
 
 # 2/5/2026 Tutorial Scanner Implicated
 To use the scanner, route your terminal into the project folder, then run the following command: 
-javac Main.java
-java Main
+javac Tutorial.java
+java Tutorial
 
 Afterwards, the prompt should come up, you input your age, and the output should follow.
 

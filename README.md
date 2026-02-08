@@ -7,7 +7,7 @@ java Tutorial
 
 Afterwards, the prompt should come up, you input your age, and the output should follow.
 
-to check if your terminal is in the right folder, run the followin command:
+to check if your terminal is in the right folder, run the following command:
 ls
 
 It should output
@@ -16,3 +16,11 @@ Main.class      Main.java       README.md
 If not, you are in the wrong folder. Search up a tutorial on how to route into the folder or ask ChatGPT.
 
 # 2/7/2026 Input of student data implemented
+Student class has been made. Inside contains the attributes and basic methods that we will use when it comes to student information.
+
+Student Scanner has been made. Inside contains a loop with a working scanner that will run through a loop of inputs to get user information confirmed.
+If information is verified to be incorrect, the loop will run again.
+To use the Student Scanner, run the following command (again in the project folder)
+
+javac StudentScanner.java
+java StudentScanner

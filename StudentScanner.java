@@ -1,18 +1,15 @@
 import java.util.Scanner;
 
 public class StudentScanner {
-    public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    
 
-
+    static void getInfo(Scanner sc) {
     //Prompts and scanning for user input
     System.out.print("Enter your SAT Score: ");
     int satScore = sc.nextInt();
 
     System.out.print("Enter your ACT Score: ");
     int actScore = sc.nextInt();
-    
+
     System.out.print("Enter your GPA: ");
     double gpa = sc.nextDouble();
 
@@ -36,7 +33,13 @@ public class StudentScanner {
         System.out.println("Thank you for confirming your information.");
     } else {
         System.out.println("Please re-enter your information.");
+        getInfo(sc);
     }
-
+    }
+    public static void main(String[] args) {
+    Student student = new Student(0, 0, 0.0, false, 0);
+    Scanner sc = new Scanner(System.in);
+    getInfo(sc);
+    System.out.println("Your ACT Score is " + student.getActScore());
     }
 }

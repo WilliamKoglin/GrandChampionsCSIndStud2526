@@ -14,3 +14,5 @@ It should output
 Main.class      Main.java       README.md
 
 If not, you are in the wrong folder. Search up a tutorial on how to route into the folder or ask ChatGPT.
+
+# 2/7/2026 Input of student data implemented

@@ -24,3 +24,21 @@ To use the Student Scanner, run the following command (again in the project fold
 
 javac StudentScanner.java
 java StudentScanner
+
+# 2/20/2026 Holy heck this is gonna be a mess
+College Data has been imported into a json file. There is a java file named CollegeLoader which loads the data form the json file into readable java objects called colleges (see College.java). Theres minor errors in some of the files and this stuff has to be organized but this will be handled later.
+
+Instructions for running:
+Make sure you have gson-2.10.jar downloaded
+Run the following two commands:
+javac -cp gson-2.10.1.jar *.java   
+java -cp .:gson-2.10.1.jar CollegeTest.Java
+
+The output should be
+Loaded 20 colleges.
+First college: UCSC
+GPA: 3.93
+SAT Min: 1200
+MIT Acceptance: 5
+
+Good work fellas

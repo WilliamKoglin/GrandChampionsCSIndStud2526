@@ -42,3 +42,5 @@ SAT Min: 1200
 MIT Acceptance: 5
 
 Good work fellas
+
+!!!NOT WINDOWS COMPATIBLE YET!!!

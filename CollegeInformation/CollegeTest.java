@@ -1,3 +1,4 @@
+package CollegeInformation;
 import java.util.List;
 
 public class CollegeTest {

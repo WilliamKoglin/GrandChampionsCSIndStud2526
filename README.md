@@ -1,4 +1,6 @@
 # GrandChampionsCSIndStud2526
+### See Instructions.md for instructions about how to use/test the application. What you see below is a log of additions made to this project###
+
 
 # 2/5/2026 Tutorial Scanner Implicated
 To use the scanner, route your terminal into the project folder, then run the following command: 
@@ -44,3 +46,14 @@ MIT Acceptance: 5
 Good work fellas
 
 !!!NOT WINDOWS COMPATIBLE YET!!!
+
+# 2/25/2026 Folder structure establishment and Instructions.md addition
+To follow the coding principle of Encapsulation, we will have the least amount of code visible to main. To do this, we will have different modular folders built into the project so that the codepsace stays clean and productive. This will be divided into three main groups:
+
+CollegeInformation
+StudentInformation
+Math
+
+These will all export their main purposes into main, which will compile and run our project. As for the tutorial folder, that was a playtesting folder with playtesting files, but we will keep it to show parts of our learning process.
+
+Another thing to recognize is that this file, README.md, is less of an instructions file than it is a log of our development process. To correct this, we will keep logging progress in here, and have instructions labeled in an Instructions.md file. Looking towards the future we may consider moving the instructions into here and creating a seperate log.md file of sorts. Hopefully the codespace is a lot cleaner and we will finish strong.

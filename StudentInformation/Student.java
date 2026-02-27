@@ -1,3 +1,4 @@
+package StudentInformation;
 public class Student {
     private int satScore;
     private int actScore;

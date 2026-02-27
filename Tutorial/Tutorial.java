@@ -1,3 +1,4 @@
+package Tutorial;
 import java.util.Scanner;
 
 public class Tutorial {

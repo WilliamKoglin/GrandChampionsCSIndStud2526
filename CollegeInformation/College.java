@@ -1,3 +1,4 @@
+package CollegeInformation;
 public class College {
 
     private String name;

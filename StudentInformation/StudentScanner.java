@@ -1,3 +1,4 @@
+package StudentInformation;
 import java.util.Scanner;
 
 public class StudentScanner {

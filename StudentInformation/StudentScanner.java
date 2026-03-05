@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class StudentScanner {
 
-    static void getInfo(Scanner sc) {
+    public static Student getInfo(Scanner sc) {
     //Prompts and scanning for user input
     System.out.print("Enter your SAT Score: ");
     int satScore = sc.nextInt();
@@ -32,15 +32,11 @@ public class StudentScanner {
     boolean isInformationCorrect = sc.nextBoolean();
     if (isInformationCorrect) {
         System.out.println("Thank you for confirming your information.");
+        return new Student(satScore, actScore, gpa, isFirstTimeApplicant, writingAbility);
     } else {
         System.out.println("Please re-enter your information.");
         getInfo(sc);
     }
-    }
-    public static void main(String[] args) {
-    Student student = new Student(0, 0, 0.0, false, 0);
-    Scanner sc = new Scanner(System.in);
-    getInfo(sc);
-    System.out.println("Your ACT Score is " + student.getActScore());
-    }
+    return null;
+    }    
 }

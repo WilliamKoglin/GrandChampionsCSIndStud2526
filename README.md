@@ -57,3 +57,10 @@ Math
 These will all export their main purposes into main, which will compile and run our project. As for the tutorial folder, that was a playtesting folder with playtesting files, but we will keep it to show parts of our learning process.
 
 Another thing to recognize is that this file, README.md, is less of an instructions file than it is a log of our development process. To correct this, we will keep logging progress in here, and have instructions labeled in an Instructions.md file. Looking towards the future we may consider moving the instructions into here and creating a seperate log.md file of sorts. Hopefully the codespace is a lot cleaner and we will finish strong.
+
+# 3/4/2026 We're done
+Math folder is complete and Main contains all of the nessecary files. At this point we need to make it Windows-friendly, tidy up the outputs, and finally get this repo shared.
+Shoutout to the MVP of the day packages. Over half of the errors in the development of this project was due to shaky handling of packages in between folders. Its a drawback of having such modular coding but at least everything works out in the end.
+Our final two commands for mac:
+javac -cp ".:gson-2.10.1.jar" */*.java Main.java
+java -cp ".:gson-2.10.1.jar" Main

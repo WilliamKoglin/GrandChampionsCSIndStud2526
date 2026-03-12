@@ -1,0 +1,22 @@
+[
+  {"name":"UCSC","avgGPA":3.93,"satMin":1200,"satMax":1440,"actMin":24,"actMax":30,"writingPoints":10,"acceptanceRate":66},
+  {"name":"UCB","avgGPA":4.195,"satMin":1320,"satMax":1530,"actMin":31,"actMax":35,"writingPoints":25,"acceptanceRate":13},
+  {"name":"UCD","avgGPA":4.065,"satMin":1160,"satMax":1420,"actMin":24,"actMax":31,"writingPoints":20,"acceptanceRate":42},
+  {"name":"UCI","avgGPA":4.125,"satMin":1190,"satMax":1440,"actMin":26,"actMax":33,"writingPoints":20,"acceptanceRate":29},
+  {"name":"UCLA","avgGPA":4.24,"satMin":1310,"satMax":1530,"actMin":31,"actMax":35,"writingPoints":25,"acceptanceRate":9},
+  {"name":"UCM","avgGPA":3.565,"satMin":1050,"satMax":1280,"actMin":20,"actMax":26,"writingPoints":10,"acceptanceRate":91},
+  {"name":"UCR","avgGPA":3.77,"satMin":1050,"satMax":1290,"actMin":19,"actMax":26,"writingPoints":10,"acceptanceRate":76},
+  {"name":"UCSD","avgGPA":4.15,"satMin":1300,"satMax":1520,"actMin":29,"actMax":34,"writingPoints":20,"acceptanceRate":27},
+  {"name":"UCSB","avgGPA":4.175,"satMin":1240,"satMax":1480,"actMin":27,"actMax":33,"writingPoints":20,"acceptanceRate":33},
+  {"name":"USC","avgGPA":3.79,"satMin":1360,"satMax":1530,"actMin":30,"actMax":34,"writingPoints":20,"acceptanceRate":10},
+  {"name":"UT Austin","avgGPA":3.88,"satMin":1230,"satMax":1480,"actMin":29,"actMax":34,"writingPoints":20,"acceptanceRate":27},
+  {"name":"Texas A&M","avgGPA":3.66,"satMin":1160,"satMax":1390,"actMin":27,"actMax":32,"writingPoints":10,"acceptanceRate":57},
+  {"name":"UMICH","avgGPA":3.91,"satMin":1360,"satMax":1530,"actMin":30,"actMax":34,"writingPoints":20,"acceptanceRate":16},
+  {"name":"MIT","avgGPA":4.15,"satMin":1520,"satMax":1570,"actMin":34,"actMax":36,"writingPoints":35,"acceptanceRate":5},
+  {"name":"Harvard","avgGPA":4.2,"satMin":1510,"satMax":1580,"actMin":34,"actMax":36,"writingPoints":35,"acceptanceRate":4},
+  {"name":"Yale","avgGPA":4.155,"satMin":1480,"satMax":1560,"actMin":33,"actMax":35,"writingPoints":35,"acceptanceRate":5},
+  {"name":"Stanford","avgGPA":3.94,"satMin":1510,"satMax":1570,"actMin":34,"actMax":35,"writingPoints":35,"acceptanceRate":4},
+  {"name":"Princeton","avgGPA":4.14,"satMin":1470,"satMax":1560,"actMin":33,"actMax":36,"writingPoints":35,"acceptanceRate":4},
+  {"name":"Duke","avgGPA":3.9,"satMin":1520,"satMax":1570,"actMin":33,"actMax":35,"writingPoints":35,"acceptanceRate":7},
+  {"name":"Emory","avgGPA":3.84,"satMin":1480,"satMax":1540,"actMin":32,"actMax":35,"writingPoints":20,"acceptanceRate":10}
+]
